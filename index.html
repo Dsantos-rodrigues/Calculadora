@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questao 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="titulo">Calculadora em JS</h1>
+    <div id="container">
+      <div>
+      <table>
+        <tr>
+          <td><button type="button" id = "num1" onclick="btnNumeros('1')">1</button></td>
+          <td><button type="button" id = "num2" onclick="btnNumeros('2')">2</button></td>
+          <td><button type="button" id = "num3" onclick="btnNumeros('3')">3</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" id = "num4" onclick="btnNumeros('4')">4</button></td>
+          <td><button type="button" id = "num5" onclick="btnNumeros('5')">5</button></td>
+          <td><button type="button" id = "num6" onclick="btnNumeros('6')">6</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" id = "num7" onclick="btnNumeros('7')">7</button></td>
+          <td><button type="button" id = "num8" onclick="btnNumeros('8')">8</button></td>
+          <td><button type="button" id = "num9" onclick="btnNumeros('9')">9</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" id = "num0" onclick="btnNumeros('0')">0</button></td>
+          <td><button type="button" id = "ponto" onclick="btnNumeros('.')" >.</button></td>
+          <td><button type="button" id = "igual" onclick="resultado()">=</button></td>
+        </tr>
+      </table>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td><button type="button" id = "mais" onclick="btnNumeros('+')">+</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id = "menos" onclick="btnNumeros('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id = "vezes" onclick="btnNumeros('*')">*</button></td>
+          </td>
+          <tr>
+            <td><button type="button" id = "dividido" onclick="btnNumeros('/')">/</button></td>
+          </tr>
+          <tr>
+            <td><button type="button" id = "limpar" onclick="limpar()">C</button></td>
+          </tr>
+        </table
+      </div>
+      <div>
+        <input type="text" id="texto">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
